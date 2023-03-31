@@ -87,7 +87,7 @@ allClear.addEventListener('click', () => {
     operator = null;
     })
 plus.addEventListener('click', () => {
-    display.textContent = "+"
+    display.textContent = ""
     operator = "+";
 })
 minus.addEventListener('click', () => {
