@@ -7,22 +7,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FFF1EF;
 }
 
  #container {
     border: 1px solid black;
+    height: 500px;
+    width: 350px;
  }
 
  button {
-    width: 30px;
+    width: 70px;
+    height: 69px;
+    margin: 7px;
  }
 
- .AC {
-    width: 64px;
- }
+ .all-clear {
+    width: 158px;
+    border: 0;
+    padding: 8px 12px;
+    border-bottom: 5px solid #be9d9d;
+    border-left: 1px solid #be9d9d;
+    border-radius: 2px;
+    margin-top: 10px;
+    background-color: #f2beab;
+    position: relative;
+    
+  }
+
+ .divide {
+    position: fixed;
+  }
+
+  .all-clear:active {
+  border-bottom-width: 2px;
+  top: 3px;
+  }
 
  .equals {
-    width: 64px;
+    width: 158px
  }
 
  .display {
@@ -40,9 +63,12 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    border: 1px solid black;
+    margin-bottom: 24px;
   }
 
+.divide, .multiply, .add, .subtract, .cancel {
+    background-color: orange;
+}
   
   
   
